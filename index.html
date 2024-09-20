@@ -1,12 +1,201 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
   <head>
-    <title>Abhijeet Bhowmik - Homepage</title>
-  </head>
+    <meta charset="UTF-8">
+    <title>Abhijeet Bhowmik</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <!-- Move to up button -->
+  <div class="scroll-button">
+    <a href="#home"><i class="fas fa-arrow-up"></i></a>
+  </div>
+  <!-- navgaition menu -->
+  <nav>
+    <div class="navbar">
+      <div class="logo"><a href="#">Portfolio.</a></div>
+      <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+      </ul>
+      <p align="right"> 
+        <a href="https://www.linkedin.com/in/abhijeet-bhowmik/" target="_blank" rel="noreferrer"> <img src="images/linkedin.svg" alt="bash" width="40" height="40"/> </a>
+        <a href="https://github.com/bhowmik-abhijeet" target="_blank" rel="noreferrer"> <img src="images/github.svg" alt="bash" width="40" height="40"/> </a> 
+        <a href="mailto:abhi.bh.31296@gmail.com" target="_blank" rel="noreferrer"> <img src="images/gmail.svg" alt="bash" width="40" height="40"/> </a> 
+    </p>
+    </div>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
 
-  <body>
-    <h1>Hi, I'm Abhijeet Bhowmik!</h1>
+<!-- Home Section Start -->
+ <section class="home" id="home">
+   <div class="home-content">
+     <div class="text">
+       <div class="text-one">Hi,</div>
+       <div class="text-two">I am Abhijeet</div>
+       <div class="text-three">A Backend Engineer</div>
+       <div class="text-four">From India</div>
+     </div>
+     <div class="button">
+       <!-- <button>Hire Me </button> -->
+       <!-- <a href="https://www.google.com"><button>Hire Me</button></a> -->
+       <a class="fcc-btn" href="https://www.linkedin.com/in/abhijeet-bhowmik">Hire me</a>  
+     </div>
+   </div>
+ </section>
 
-    <p>Welcome to my page!</p>
-  </body>
+</div>
+<!-- About Section Start -->
+<section class="about" id="about">
+  <div class="content">
+    <div class="title"><span>About Me</span></div>
+  <div class="about-details">
+    <div class="left">
+      <img src="images/profile_linkdin.jpeg" alt="">
+    </div>
+    <div class="right">
+      <div class="topic">Crafting Code & Curiosity</div>
+      <p>My mantra: If it isn't broken, I'll still improve it. <br> <br>Skilled and Experienced in Backend technologies such as NodeJS, GoLang, Python, Postgres, Mongodb etc and tools such as Git, Terraform, Docker, and Kubernetes. Strong engineering professional with a Bachelor of Technology focused on Information Technology. <br> <br>
+      Want to pursue a challenging career in an organization that utilizes me to my full potential and helps me to enhance my skills, ability, and knowledge.</p>
+      <div class="button">
+        <!-- <button>Download CV</button> -->
+        <a href="cv/AbhijeetBhowmikResume.pdf"><button>Download CV</button></a>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+<!-- My Skill Section Start -->
+<!-- Section Tag and Other Div will same where we need to put same CSS -->
+<section class="skills" id="skills">
+ <div class="content">
+   <div class="title"><span>My Skills</span></div>
+   <div class="skills-details">
+     <div class="text">
+       <div class="topic">Skills reflect our knowledge, <br> Workmanship reflects our practicality.</div>
+       <p>I have acquired my skills over a span of 6 years while working at small to mid size service as well as product based firms. Although I don't know each topic by heart, I am skilled at using just the right tools to build applications at scale</p>
+       <div class="experience">
+         <div class="exp">Over</div>
+         <div class="num">6</div>
+         <div class="exp">Years Of <br> Experience</div>
+       </div>
+     </div>
+     <div class="boxes">
+       <div class="box">
+         <div class="topic">API</div>
+         <div class="per">NodeJS</div>
+       </div>
+       <div class="box">
+         <div class="topic">Microservices</div>
+         <div class="per">GoLang</div>
+       </div>
+       <div class="box">
+         <div class="topic">Database</div>
+         <div class="per">MongoDB</div>
+         <div class="per">Postgres</div>
+       </div>
+       <div class="box">
+         <div class="topic">Scripting</div>
+         <div class="per">Python</div>
+       </div>
+       <div class="box">
+         <div class="topic">RPC</div>
+         <div class="topic2">gRPC</div>
+         <div class="topic2">RabbitMQ</div>
+       </div>
+       <div class="box">
+         <div class="topic">Caching</div>
+         <div class="topic2">Redis</div>
+       </div>
+     </div>
+   </div>
+ </div>
+</section>
+
+<!-- My Services Section Start -->
+ <section class="services" id="services">
+   <div class="content">
+     <div class="title"><span>Self-Learnings</span></div>
+     <div class="boxes">
+      <div class="box">
+       <div class="topic">Programming, Data Structures and Algorithms in Python</div>
+       <p>A comprehensive course on data structures and algorithms I completed during my college</p>
+       <br>
+       <a class="cert-btn" href="images/programming.jpeg">View Credentials</a>
+      </div>
+
+      <div class="box">
+       <div class="topic">Machine Learning for Engineering and Science Applications</div>
+       <p>A deep dive technical course on machine learning and its applications in science</p>
+       <br>
+       <a class="cert-btn" href="images/machine_learning.jpeg">View Credentials</a>
+      </div>
+
+      <div class="box">
+       <div class="topic">Server-side Development with NodeJS</div>
+       <p>A course which bootstrapped me in Server Side Development and familiarized with NodeJS and ExpressJS</p>
+       <br>
+       <a class="cert-btn" href="https://www.coursera.org/account/accomplishments/verify/LS6B7UWPJCFL?utm_campaign=sharing_cta&utm_content=cert_image&utm_medium=certificate&utm_product=course&utm_source=link">View Credentials</a>
+      </div>
+      
+      <div class="box">
+       <div class="topic">Operating Kubernetes on IBM Cloud</div>
+       <p>I attended this course as part of work cirriculum. It enabled me to operate K8s solution on IBM Cloud</p>
+       <br>
+       <a class="cert-btn" href="https://www.credly.com/badges/094af0a8-cecd-4c6b-b3b8-912d74fad3e8?source=linked_in_profile">View Credentials</a>
+      </div>
+      
+      <div class="box">
+       <div class="topic">Machine Learning</div>
+       <p>Intelligent systems always intrigued me and I completed this certification course to feed my curiosity</p>
+       <br>
+       <a class="cert-btn" href="https://www.coursera.org/account/accomplishments/verify/UU78S3FML2EF?utm_source=link&utm_medium=certificate&utm_content=lih&utm_campaign=card_button">View Credentials</a>
+      </div>
+
+      <div class="box">
+       <div class="topic">Neural Networks and Deep Learning</div>
+       <p>Continued pursuation to better understand more complex machine learning models and computer vision</p>
+       <br>
+       <a class="cert-btn" href="https://www.coursera.org/account/accomplishments/verify/GAPAMDVJPL49?utm_source=link&utm_medium=certificate&utm_content=lih&utm_campaign=card_button">View Credentials</a>
+      </div>
+   </div>
+   </div>
+ </section>
+
+<!-- Contact Me section Start -->
+<section class="contact" id="contact">
+  <div class="content">
+    <div class="title"><span>Contact Me</span></div>
+    <div class="text">
+      <div class="topic">Have Any Openings?</div>
+      <p>I am open to work. Why wait, lets plan to connect.</p>
+      <div class="button">
+        <!-- <button>Let's Chat</button> -->
+        <a class="fcc-btn" href="https://www.linkedin.com/in/abhijeet-bhowmik/">Connect on Linkedin</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer Section Start -->
+<footer>
+  <div class="text">
+    <span>Created By <a href="#">Abhijeet</a> | &#169; 2024 All Rights Reserved</span>
+  </div>
+</footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
